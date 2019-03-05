@@ -1,0 +1,631 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.body {
+    font-family:Arial,"Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+ 
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+  
+
+.nav li {
+    
+    
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 75px;
+    
+    
+    
+}
+.nav  {
+    
+    background-color: black;
+    text-decoration: none;
+    margin: none;
+    margin-right: 15px;
+   
+}
+.navbar {
+    z-index:4;
+}
+.list {
+    margin-left: 350px;
+}
+
+ .full {
+    
+    background-image: url("../images/concrete_seamless.png"); 
+    /* background-color: beige; */
+    height: 960px;
+    width: 100%;
+    margin: none;
+    z-index:-2;
+
+ }
+ .content-contact {
+    overflow: hidden;
+    position: relative;
+    position: center;
+    bottom: -200px;
+    /* background: #ffffff; */
+    width: 600px;
+    height: 300px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#ffffff ;
+    color:rgb(96, 102, 134);
+   
+    
+}
+.bold { font-weight: bold; }
+.rgb { color:rgb(80, 77, 77); }
+.para {
+    margin: 0px;
+    padding: 8px 0 0 0;
+    color: rgb(96, 102, 134);
+}
+/* .name { 
+    font-size: 50px;
+    font-family:"Times New Roman", serif;
+
+
+} */
+
+
+
+    
+    .content {
+        overflow: hidden;
+        position: relative;
+        position: center;
+        bottom: -100px;
+        /* background: #ffffff; */
+        width: 800px;
+        height: 600px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        border: #dddddd;
+        margin-left: auto;
+        margin-right: auto;
+        color:rgb(96, 102, 134);
+        background-image: url("../images/concrete_seamless.png");
+       
+    }
+        
+ 
+    .contentP {
+        overflow: hidden;
+        position: relative;
+        position: center;
+        bottom: -90px;
+        /* background: #ffffff; */
+        width: 950px;
+        height: 600px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        border: #dddddd;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("../images/concrete_seamless.png");
+        /* z-index:1; */
+    }
+    
+
+    .header {
+
+        position: relative;
+        margin-bottom:5px;
+        margin-top: none;
+        color:rgb(80, 77, 77);
+        font-weight: bold;
+        border-bottom-style: solid;
+        border-color: rgb(80, 77, 77);
+        height: 80px;
+        padding-top: 10px;
+       
+
+ }
+
+ 
+    #aboutme, #portfolio, #contact{
+        position: absolute;
+        top: 20px;
+        font-family: "Cochin-Italic";
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+        font-size: 25px;
+        padding-top: 10px;
+ }
+
+    #portfolio {
+        position: absolute;
+        top: 20px;
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+        font-size: 25px;
+        
+
+}
+
+    #contact {
+        position: absolute;
+        top: 30px;
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+        font-size: 25px;
+
+}
+
+
+
+        .layout1, .layout2  {
+            width: 20%;
+            margin: 0px 0px 0px 0px;
+            float: left;
+        
+    }
+        .layout3, .layout4 {
+            width: 20%;
+            margin: 0px 0px 0px 0px;
+            float: left;
+           
+        
+    }
+        .layout5 {
+            width: 20%;
+            margin: 0px 0px 0px 0px;
+            float: left;
+   
+
+    }
+    
+
+    .labelhtml, 
+    .labelcss, 
+    .labelbootstrap, 
+    .labeljavascript,
+    .labelgithub,
+    .labeltriviaGame,
+    .labelstarwars,
+    .labelgiftastic,
+    .labelTrain,
+    .labelRouteVisor,
+    .labelLiri,
+    .labelAmazonStore,
+    .labelFriendFinder,
+    .labelBurger,
+    .labelPad {
+        
+        background-color: #916491;
+        color:white;
+        position: relative;
+        top: 59px;
+        text-align: center;
+        font-size: 15px;
+        padding: 4px;
+
+    }
+    
+   
+
+  
+
+    .img1 {
+        
+        
+        background-image: url("../images/image (5).jpeg");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    
+
+    }
+
+
+    .img2 {
+        
+        background-image: url("../images/image (6).jpeg");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+
+    .img3 {
+
+        
+        background-image: url("../images/image1.jpeg");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .img4 {
+    
+        background-image: url("../images/image (7).jpeg");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    
+    
+    .img5 {
+        
+        background-image: url("../images/images (4).jpeg");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .img6 {
+        
+        background-image: url("../images/DarthVader.jpg");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .img7 {
+        
+        background-image: url("../images/giphy.webp");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .img8 {
+        
+        background-image: url("../images/200.webp");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .img9 {
+        
+        background-image: url("../images/train.jpeg");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img10 {
+        
+        background-image: url("../images/RouteVisor.png");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .img11 {
+        
+        background-image: url("../images/nodejs.png");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .img12 {
+        
+        background-image: url("../images/MySql.png");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img13 {
+        
+        background-image: url("../images/friendfinder.jpg");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .img14 {
+        
+        background-image: url("../images/burger.png");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .img15 {
+        
+        background-image: url("../images/logo.png");
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+   
+    #img {
+        float: left;
+        padding: 0px;
+        width: 120px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+    
+
+    
+    
+    .footer {
+        position:relative;
+        bottom: 50px;
+        height: 50px;
+        background-color: #666666;
+        padding: 5px;
+        border-top: 8px solid #aebbba;
+        text-align: center;
+
+}
+
+
+
+    
+    
+        @media screen and (max-width: 980px) {
+            .layout1, .layout2 {
+                width: 25%;
+                margin: 0px 0px 0px 0px;
+                float: left;
+            
+        }
+    }
+
+   
+
+    @media screen and (max-width: 980px) {
+        .contentP {
+    
+            position: relative;
+            position: center;
+            bottom: -90px;
+            /* background: #ffffff; */
+            width: 600px;
+            height: 900px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: none;
+            padding-bottom: 20px;
+            /* border: #dddddd; */
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        }
+
+
+    @media screen and (max-width: 980px) {
+        .content {
+    
+            position: relative;
+            position: center;
+            bottom: -90px;
+            /* background: #ffffff; */
+            width: 600px;
+            height: 600px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: none;
+            padding-bottom: 20px;
+            /* border: #dddddd; */
+            margin-left: auto;
+            margin-right: auto;
+        }
+            
+     }
+    @media screen and (max-width: 980px) {
+        .full {
+           
+           background-image: url("../images/concrete_seamless.png");
+           height: 1160px;
+           width: 100%;
+           margin: none;
+           padding: none;
+         
+           
+        }
+           
+       }
+
+
+     
+        @media screen and (max-width: 640px){
+            .nav li ,.list{
+                display: inline-block;
+                margin-left: 20px;
+                margin-right: 5%;
+                padding: 5px;
+                
+        
+            }
+        }
+
+         
+            @media screen and (min-width: 768px) {
+                .nav li ,.list{
+                    display: inline-block;
+                    margin-left: 20px;
+                    margin-right: 5%;
+                    padding: 5px;
+                    
+            
+                }
+            }
+      
+    
+    @media screen and (max-width: 980px) {  
+        .footer {
+            position:relative;
+            bottom: 5px;
+            height: 50px;
+            background-color: #666666;
+            padding: 5px;
+            border-top: 8px solid #4aaaa5;
+            text-align: center;
+
+    }
+
+    }
+
+    @media screen and (max-width: 640px) {
+        .contentP {
+           width: 100%;
+           height: 2000px;
+          bottom: -30px;
+        }
+    }
+    @media screen and (max-width: 640px) {
+        .content-contact {
+            position: fixed;
+            width: 100%;
+            height: 275px;
+            bottom: -30px;
+            /* margin-top: 3000px; */
+        }
+    }
+    @media screen and (max-width: 640px) {
+        .content {
+            
+            width: 100%;
+            height: 100%;
+            bottom: -10px;
+            margin-top: 20px;
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        
+        .layout1, 
+        .layout2, 
+        .layout3,
+        .layout4,
+        .layout5 {
+            width: 100%;
+            float: left;
+        }
+    }
+    @media screen and (min-width: 640px) and (max-width: 768px) {
+        .contentP {
+            width: 100%;
+            float: left;
+            position: relative;
+            bottom: -70px;
+            height: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }}
+
+    @media screen and (min-width: 640px) and (max-width: 768px) {
+        .nav li ,.list{
+            display: inline-block;
+            margin-left: 20px;
+            margin-right: 5%;
+            padding: 5px;
+            
+    
+        }
+    }
+   
+    
+    
+    @media screen and (max-width: 640px) {
+        .para {
+           width: 100%;
+            
+        }
+    } 
+
+
+   
